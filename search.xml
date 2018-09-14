@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[控制台输出空心菱形]]></title>
-    <url>%2F2018%2F09%2F14%2FPython---%E6%8E%A7%E5%88%B6%E5%8F%B0%E8%BE%93%E5%87%BA%EF%BC%9A%E7%A9%BA%E5%BF%83%E8%8F%B1%E5%BD%A2%2F</url>
+    <url>%2F1970%2F01%2F01%2FPython---%E6%8E%A7%E5%88%B6%E5%8F%B0%E8%BE%93%E5%87%BA%EF%BC%9A%E7%A9%BA%E5%BF%83%E8%8F%B1%E5%BD%A2%2F</url>
     <content type="text"><![CDATA[我这次分成了四个部分 其实第一部分和最后一部分是一样的 关键在第二部分和第三部分，这两部分是几乎一样的。 1.第一部分和最后一部分是一样的，就是判断中间的位置打印*，其他位置打印空格 123456for i in range(1, 20): if i == 10: print(&quot;*&quot;) break else: print(&quot; &quot;, end=&quot;&quot;) 2.第二部分和第三部分 其实和打印三角形是一样，第三部分无非就是倒着打印，记住，这里的j循环，不仅仅是控制行数，同时也是用来找到每行打印*的位置 如果有不明白的请回头好好理解打印空心三角形，我上一片博客 1234567891011121314151617181920# 第二部分for j in range(9, 4, -1): for i in range(1, 20): if i == j: print(&quot;*&quot;, end=&quot;&quot;) elif i == 20 - j: print(&quot;*&quot;) break else: print(&quot; &quot;, end=&quot;&quot;)# 第三部分for j in range(4, 10): for i in range(1, 20): if i == j: print(&quot;*&quot;, end=&quot;&quot;) elif i == 20 - j: print(&quot;*&quot;) break else: print(&quot; &quot;, end=&quot;&quot;)]]></content>
   </entry>
 </search>
