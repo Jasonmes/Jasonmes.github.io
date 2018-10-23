@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Python实现逻辑回归与梯度下降策略]]></title>
+    <url>%2F2018%2F10%2F21%2FPython%E5%AE%9E%E7%8E%B0%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E4%B8%8E%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AD%96%E7%95%A5%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[简历]]></title>
     <url>%2F2018%2F10%2F20%2F%E7%AE%80%E5%8E%86%2F</url>
-    <content type="text"><![CDATA[#iOS/python 数据分析师 张珈盛| 张珈盛 | 26岁 | 现居住地：深圳 || ————- |:————-:| —–:|| Github | jasonmes.github.io || 技术博客网站 | jasonmes.github.io | 计算机专业两年工作经验，之前从事的是Apple iOS开发 以下的内容大部分做了超链接，点击之后都将会转到我的技术博客展示页面 专业技能 精通SQL. 1 2 精通用Python做数据处理 numpy pandas matplotlib seaborn 懂sklearn算法 无监督学习 随机森林 决策树 线性回归 监督学习 knn em 呼呼 扎实的统计学知识 会excel 数据透视表 vlookup 常用函数的使用 基础图表的制作 会Matlab 灵活使用爬虫 工作经历项目一 例如 ：商品点击预测项目： 利用pyspark读取、合并超过100GB的商品以及用户点击数据，并且进行数据清洗，如剔除异常数据点 根据word2vec模型提取商品中的文本信息，构建词向量特征；使用SMOTE解决非平衡数据的问题 使用python训练xgboost+lr分类模型，并通过交叉验证对模型进行调参优化 根据线上AB Test的结果，新模型的roc auc比原模型提高了10%，logloss减小了10% 项目二 例如： 想了解更多—&gt;&gt;&gt;]]></content>
+    <content type="text"><![CDATA[#iOS/python 数据分析师 张珈盛 - 26岁 现居住地：深圳 Github —&gt;&gt; jasonmes.github.io 技术博客网站 —&gt;&gt; jasonmes.github.io 计算机专业两年工作经验，之前从事的是Apple iOS开发 以下的内容大部分做了超链接，点击之后都将会转到我的技术博客展示页面 专业技能 精通SQL. 1 2 精通用Python做数据处理 numpy pandas matplotlib seaborn 懂sklearn算法 无监督学习 随机森林 决策树 线性回归 监督学习 knn em 呼呼 扎实的统计学知识 会excel 数据透视表 vlookup 常用函数的使用 基础图表的制作 会Matlab 灵活使用爬虫 工作经历项目一 例如 ：商品点击预测项目： 利用pyspark读取、合并超过100GB的商品以及用户点击数据，并且进行数据清洗，如剔除异常数据点 根据word2vec模型提取商品中的文本信息，构建词向量特征；使用SMOTE解决非平衡数据的问题 使用python训练xgboost+lr分类模型，并通过交叉验证对模型进行调参优化 根据线上AB Test的结果，新模型的roc auc比原模型提高了10%，logloss减小了10% 项目二 例如： 想了解更多—&gt;&gt;&gt;]]></content>
   </entry>
   <entry>
     <title><![CDATA[One Hot Encoding in Scikit-Learn]]></title>
