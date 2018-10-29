@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Tushare, 金融数据分析利器]]></title>
+    <url>%2F2018%2F10%2F27%2FTushare-%E9%87%91%E8%9E%8D%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%88%A9%E5%99%A8%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[学会使用graphviz]]></title>
+    <url>%2F2018%2F10%2F27%2F%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8graphviz%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[用Python表达机器学习中用到的公式]]></title>
+    <url>%2F2018%2F10%2F27%2F%E7%94%A8Python%E8%A1%A8%E8%BE%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E5%85%AC%E5%BC%8F%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[十大机器学习算法]]></title>
+    <url>%2F2018%2F10%2F27%2F%E5%8D%81%E5%A4%A7%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[十大经典数据挖掘算法]]></title>
+    <url>%2F2018%2F10%2F26%2F%E5%8D%81%E5%A4%A7%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E7%AE%97%E6%B3%95%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[信用评分]]></title>
     <url>%2F2018%2F10%2F24%2F%E4%BF%A1%E7%94%A8%E8%AF%84%E5%88%86%2F</url>
     <content type="text"><![CDATA[信用评分指帮助贷款机构发放消费信贷的一整套决策模型及其支持技术。一般地，信用评分技术将客户分为好客户与坏客户两类，比如说，好客户(good)能够按期还本付息（履约），违约的就是坏客户(bad)。具体做法是根据历史上每个类别（履约、违约）的若干样本，从已知的数据中考察借款人的哪些特征对其拖欠或违约行为有影响，从而测量借款人的违约风险，为信贷决策提供依据。Logistic回归是信用评分领域运用最成熟最广泛的统计技术。]]></content>
