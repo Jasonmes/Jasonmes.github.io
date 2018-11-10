@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[数据拟合和常见的聚类算法]]></title>
+    <url>%2F2018%2F11%2F10%2F%E6%95%B0%E6%8D%AE%E6%8B%9F%E5%90%88%E5%92%8C%E5%B8%B8%E8%A7%81%E7%9A%84%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[如果计算能力足够强大，是不是就不需要对数据降维]]></title>
+    <url>%2F2018%2F11%2F07%2F%E5%A6%82%E6%9E%9C%E8%AE%A1%E7%AE%97%E8%83%BD%E5%8A%9B%E8%B6%B3%E5%A4%9F%E5%BC%BA%E5%A4%A7%EF%BC%8C%E6%98%AF%E4%B8%8D%E6%98%AF%E5%B0%B1%E4%B8%8D%E9%9C%80%E8%A6%81%E5%AF%B9%E6%95%B0%E6%8D%AE%E9%99%8D%E7%BB%B4%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[降噪都有哪些方法]]></title>
+    <url>%2F2018%2F11%2F07%2F%E9%99%8D%E5%99%AA%E9%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[NOSQL和SQL]]></title>
     <url>%2F2018%2F11%2F03%2FNOSQL%E5%92%8CSQL%2F</url>
     <content type="text"></content>
@@ -64,6 +79,11 @@
     <title><![CDATA[简历]]></title>
     <url>%2F2018%2F10%2F20%2F%E7%AE%80%E5%8E%86%2F</url>
     <content type="text"><![CDATA[#iOS/python 数据分析师 张珈盛 - 26岁 现居住地：深圳 Github —&gt;&gt; jasonmes.github.io 技术博客网站 —&gt;&gt; jasonmes.github.io 计算机专业两年工作经验，之前从事的是Apple iOS开发 以下的内容大部分做了超链接，点击之后都将会转到我的技术博客展示页面 专业技能 精通SQL. 1 2 精通用Python做数据处理 numpy pandas matplotlib seaborn 懂sklearn算法 无监督学习 随机森林 决策树 线性回归 监督学习 knn em 呼呼 扎实的统计学知识 会excel 数据透视表 vlookup 常用函数的使用 基础图表的制作 会Matlab 灵活使用爬虫 工作经历项目一 例如 ：商品点击预测项目： 利用pyspark读取、合并超过100GB的商品以及用户点击数据，并且进行数据清洗，如剔除异常数据点 根据word2vec模型提取商品中的文本信息，构建词向量特征；使用SMOTE解决非平衡数据的问题 使用python训练xgboost+lr分类模型，并通过交叉验证对模型进行调参优化 根据线上AB Test的结果，新模型的roc auc比原模型提高了10%，logloss减小了10% 项目二 例如： 想了解更多—&gt;&gt;&gt;]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[‘DBSCAN-or-K_Means’]]></title>
+    <url>%2F2017%2F03%2F10%2F%E2%80%98DBSCAN-or-K-Means%E2%80%99%2F</url>
+    <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
     <title><![CDATA[SVM-Support_Vector_Machine]]></title>
