@@ -81,6 +81,16 @@
     <content type="text"><![CDATA[#iOS/python 数据分析师 张珈盛 - 26岁 现居住地：深圳 Github —&gt;&gt; jasonmes.github.io 技术博客网站 —&gt;&gt; jasonmes.github.io 计算机专业两年工作经验，之前从事的是Apple iOS开发 以下的内容大部分做了超链接，点击之后都将会转到我的技术博客展示页面 专业技能 精通SQL. 1 2 精通用Python做数据处理 numpy pandas matplotlib seaborn 懂sklearn算法 无监督学习 随机森林 决策树 线性回归 监督学习 knn em 呼呼 扎实的统计学知识 会excel 数据透视表 vlookup 常用函数的使用 基础图表的制作 会Matlab 灵活使用爬虫 工作经历项目一 例如 ：商品点击预测项目： 利用pyspark读取、合并超过100GB的商品以及用户点击数据，并且进行数据清洗，如剔除异常数据点 根据word2vec模型提取商品中的文本信息，构建词向量特征；使用SMOTE解决非平衡数据的问题 使用python训练xgboost+lr分类模型，并通过交叉验证对模型进行调参优化 根据线上AB Test的结果，新模型的roc auc比原模型提高了10%，logloss减小了10% 项目二 例如： 想了解更多—&gt;&gt;&gt;]]></content>
   </entry>
   <entry>
+    <title><![CDATA[工作中使用Tableau Desktop方法总结]]></title>
+    <url>%2F2017%2F10%2F17%2F%E5%B7%A5%E4%BD%9C%E4%B8%AD%E4%BD%BF%E7%94%A8Tableau-Desktop%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93%2F</url>
+    <content type="text"><![CDATA[范畴 BI工程师：Business Intelligence Tableau工程师 报表开发工程师 主要工作：采购、存储、分类、清洗、加工 ———–人是视觉动物，要用数据把一个故事讲活，图表是必不可少的。 如果你经常看到做数据分析同事，在SQL客户端里执行完查询，把结果复制/粘贴到Excel里再做成图表，那说明你的公司缺少一个可靠的数据可视化平台。 1.0 首先推荐的官方培训视频http://www.tableau.com/zh-cn/learn/training. 你可以学到的东西 工具界面操作 文件的发布和共享 连接数据库、连接文本数据、发布数据源、数据提取、数据关联等 分组、集、数据桶、参数、排序、参考线、趋势线、筛选器、预测等 创建仪表板和故事 一般常用图形绘制及地图绘制 计算字段以及LOD表达式（“超越视图级别” 详细级别表达式） 格式调整与布局 官方网站截图]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[如何快速将数据导入MySQL]]></title>
+    <url>%2F2017%2F04%2F17%2F%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%B0%86%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5MySQL%2F</url>
+    <content type="text"><![CDATA[无论是刚刚入行的萌新，还是已经驰骋数据圈的数据猿，前期的数据准备工作都需要足够的娴熟和准确]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[PCA 与 DCA]]></title>
     <url>%2F2017%2F03%2F20%2FPCA-%E4%B8%8E-DCA%2F</url>
     <content type="text"><![CDATA[]]></content>

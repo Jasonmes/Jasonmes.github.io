@@ -265,6 +265,275 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/04/25/Python---控制台输出：空心菱形/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张珈盛">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jasonmes">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/04/25/Python---控制台输出：空心菱形/" itemprop="url">Python---控制台输出空心菱形</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-04-25T11:45:45+08:00">
+                2016-04-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li>我这次分成了四个部分</li>
+<li>其实第一部分和最后一部分是一样的</li>
+<li>关键在第二部分和第三部分，这两部分是几乎一样的。</li>
+</ol>
+<hr>
+<p> 1.<strong>第一部分和最后一部分是一样的，就是判断中间的位置打印*，其他位置打印空格</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">for i in range(1, 20):</span><br><span class="line">    if i == 10:</span><br><span class="line">        print(&quot;*&quot;)</span><br><span class="line">        break</span><br><span class="line">    else:</span><br><span class="line">        print(&quot; &quot;, end=&quot;&quot;)</span><br></pre></td></tr></table></figure>
+<p>2.<strong>第二部分和第三部分</strong><br>    <strong>其实和打印三角形是一样，第三部分无非就是倒着打印，记住，这里的j循环，不仅仅是控制行数，同时也是用来找到每行打印*的位置</strong><br>    <strong>如果有不明白的请回头好好理解打印空心三角形，我上一片博客</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"># 第二部分</span><br><span class="line">for j in range(9, 4, -1):</span><br><span class="line">    for i in range(1, 20):</span><br><span class="line">        if i == j:</span><br><span class="line">            print(&quot;*&quot;, end=&quot;&quot;)</span><br><span class="line">        elif i == 20 - j:</span><br><span class="line">            print(&quot;*&quot;)</span><br><span class="line">            break</span><br><span class="line">        else:</span><br><span class="line">            print(&quot; &quot;, end=&quot;&quot;)</span><br><span class="line"># 第三部分</span><br><span class="line">for j in range(4, 10):</span><br><span class="line">    for i in range(1, 20):</span><br><span class="line">        if i == j:</span><br><span class="line">            print(&quot;*&quot;, end=&quot;&quot;)</span><br><span class="line">        elif i == 20 - j:</span><br><span class="line">            print(&quot;*&quot;)</span><br><span class="line">            break</span><br><span class="line">        else:</span><br><span class="line">            print(&quot; &quot;, end=&quot;&quot;)</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/04/22/Python---控制台输出，空心正方形/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张珈盛">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jasonmes">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/04/22/Python---控制台输出，空心正方形/" itemprop="url">Python---控制台输出：空心正方形</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-04-22T12:42:22+08:00">
+                2016-04-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ul>
+<li><strong>实心的都会写，直接循环print，那么空心的呢？</strong><ul>
+<li><strong>代码是这样的</strong><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"># 打印正方形</span><br><span class="line">for i in range(20):</span><br><span class="line">    if i % 2 == 0:</span><br><span class="line">        print(&quot;*&quot;, end=&quot;&quot;)</span><br><span class="line">    else:</span><br><span class="line">        print(&quot; &quot;, end=&quot;&quot;)</span><br><span class="line"></span><br><span class="line">print()</span><br><span class="line">for j in range(8):</span><br><span class="line">    for i in range(20):</span><br><span class="line">        if i == 0:</span><br><span class="line">            print(&quot;*&quot;, end=&quot;&quot;)</span><br><span class="line">        elif i == 18:</span><br><span class="line">            print(&quot;*&quot;)</span><br><span class="line">            break</span><br><span class="line">        else:</span><br><span class="line">            print(&quot; &quot;, end=&quot;&quot;)</span><br><span class="line"></span><br><span class="line">for i in range(20):</span><br><span class="line">    if i % 2 == 0:</span><br><span class="line">        print(&quot;*&quot;, end=&quot;&quot;)</span><br><span class="line">    else:</span><br><span class="line">        print(&quot; &quot;, end=&quot;&quot;)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>是的分成了三个部分，为了方便理解我分成了三个部分</strong></li>
+<li><strong>第一部分和第三部分其实就是打印第一行和最后一行，最简单，这里打印10个*，为了好看，增加了空格隔开，所以range是20</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">for i in range(20):</span><br><span class="line">    # 以空格隔开，刚好打印*的位置是i偶数的位置，i奇数的位置打印空格</span><br><span class="line">    if i % 2 == 0:</span><br><span class="line">        print(&quot;*&quot;, end=&quot;&quot;)</span><br><span class="line">    else:</span><br><span class="line">        print(&quot; &quot;, end=&quot;&quot;)</span><br><span class="line"># 要记得加入这句话，换行，上面的代码运行完毕不会换行</span><br><span class="line">print()</span><br></pre></td></tr></table></figure>
+<ol>
+<li><strong>第二部分，最关键这里：</strong></li>
+<li>j循环控制行数，i循环控制每行在哪个位置打印<em>，所以i等于0或者18的时候打印</em>，i等于18的时候打印*之后就要break本次循环进入外层的j循环</li>
+<li>end的使用：end=“”的时候，就是不换行，也不空格。最关键的一个代码。</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">for j in range(8):</span><br><span class="line">    for i in range(20):</span><br><span class="line">        if i == 0:</span><br><span class="line">            print(&quot;*&quot;, end=&quot;&quot;)</span><br><span class="line">        elif i == 18:</span><br><span class="line">            print(&quot;*&quot;)</span><br><span class="line">            break</span><br><span class="line">        else:</span><br><span class="line">            print(&quot; &quot;, end=&quot;&quot;)</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>最后一部分和第一部分是一样的，代码照搬</strong><h2 id="空心正方形理解透彻以后我们进入下一个篇章，打印空心三角形"><a href="#空心正方形理解透彻以后我们进入下一个篇章，打印空心三角形" class="headerlink" title="空心正方形理解透彻以后我们进入下一个篇章，打印空心三角形"></a>空心正方形理解透彻以后我们进入下一个篇章，打印空心三角形</h2></li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/04/20/Python---控制台输出：空心三角形/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -432,7 +701,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">31</span>
+                <span class="site-state-item-count">33</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
