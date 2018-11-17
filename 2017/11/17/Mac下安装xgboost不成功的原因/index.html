@@ -94,17 +94,17 @@
 
 
 
-<meta name="description" content="来抓我啊">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="第一步今天我发现git命令无法执行，homebrew也无法使用，这种情景我在升级OS X El Capitan也遇到过一次，完整异常提示如下： invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/b">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac下安装xgboost不成功的原因">
+<meta property="og:url" content="http://yoursite.com/2017/11/17/Mac下安装xgboost不成功的原因/index.html">
 <meta property="og:site_name" content="Jasonmes">
-<meta property="og:description" content="来抓我啊">
+<meta property="og:description" content="第一步今天我发现git命令无法执行，homebrew也无法使用，这种情景我在升级OS X El Capitan也遇到过一次，完整异常提示如下： invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/b">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-14T00:40:39.273Z">
+<meta property="og:updated_time" content="2018-11-17T07:28:51.405Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="来抓我啊">
+<meta name="twitter:title" content="Mac下安装xgboost不成功的原因">
+<meta name="twitter:description" content="第一步今天我发现git命令无法执行，homebrew也无法使用，这种情景我在升级OS X El Capitan也遇到过一次，完整异常提示如下： invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/b">
 
 
 
@@ -133,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/11/17/Mac下安装xgboost不成功的原因/"/>
 
 
 
 
 
-  <title>tags | Jasonmes</title>
+  <title>Mac下安装xgboost不成功的原因 | Jasonmes</title>
   
 
 
@@ -252,33 +252,149 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/17/Mac下安装xgboost不成功的原因/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张珈盛">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jasonmes">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
+          <h1 class="post-title" itemprop="name headline">Mac下安装xgboost不成功的原因</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-17T15:24:52+08:00">
+                2017-11-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-      </div>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><pre><code>今天我发现git命令无法执行，homebrew也无法使用，这种情景我在升级OS X El Capitan也遇到过一次，完整异常提示如下：
+</code></pre><p>invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun</p>
+<h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><ul>
+<li>解决方法很简单，就是在命令行中执行<br>‘’’<br>xcode-select –install<br>‘’’</li>
+<li>然后会启动下载并安装Command line tools OS X 10.11) for Xcode</li>
+<li>注意，这个命令并不会下载完整的Xcode，但是下载依然会很慢，如果你有苹果开发者账号的话，你可以去<a href="http://developer.apple.com/downloads下载" target="_blank" rel="noopener">http://developer.apple.com/downloads下载</a> Command line tools OS X 10.1x来安装。</li>
+</ul>
+<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>pip install xgboost</p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/10/17/工作中使用Tableau-Desktop方法总结/" rel="next" title="工作中使用Tableau Desktop方法总结">
+                <i class="fa fa-chevron-left"></i> 工作中使用Tableau Desktop方法总结
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/10/20/简历/" rel="prev" title="简历">
+                简历 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -311,8 +427,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -359,6 +484,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一步"><span class="nav-number">1.</span> <span class="nav-text">第一步</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#解决方法"><span class="nav-number">1.0.1.</span> <span class="nav-text">解决方法</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二步"><span class="nav-number">2.</span> <span class="nav-text">第二步</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -479,10 +620,10 @@
 
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
