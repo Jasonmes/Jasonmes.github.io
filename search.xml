@@ -96,6 +96,11 @@
     <content type="text"><![CDATA[范畴 BI工程师：Business Intelligence Tableau工程师 报表开发工程师 主要工作：采购、存储、分类、清洗、加工 ———–人是视觉动物，要用数据把一个故事讲活，图表是必不可少的。 如果你经常看到做数据分析同事，在SQL客户端里执行完查询，把结果复制/粘贴到Excel里再做成图表，那说明你的公司缺少一个可靠的数据可视化平台。 1.0 首先推荐的官方培训视频http://www.tableau.com/zh-cn/learn/training. 你可以学到的东西 工具界面操作 文件的发布和共享 连接数据库、连接文本数据、发布数据源、数据提取、数据关联等 分组、集、数据桶、参数、排序、参考线、趋势线、筛选器、预测等 创建仪表板和故事 一般常用图形绘制及地图绘制 计算字段以及LOD表达式（“超越视图级别” 详细级别表达式） 格式调整与布局 官方网站截图 2.0 官网进阶视频，注册就可以看，还附带高清视频和使用的数据包下载http://www.tableau.com/zh-cn/learn/webinars. 所见即所得，高效创建Tableau工作簿 Tableau的高级分析应用 数据可视化提升网络营销洞察力 如何使用 Tableau 超越 Excel 销售分析的力量 可视化分析最佳实践 Tableau 与 R : 数据统计分析的完美集成 进阶官方视频]]></content>
   </entry>
   <entry>
+    <title><![CDATA[k临近值 决策树 随机森林 朴素贝叶斯]]></title>
+    <url>%2F2017%2F06%2F24%2Fk%E4%B8%B4%E8%BF%91%E5%80%BC-%E5%86%B3%E7%AD%96%E6%A0%91-%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97-%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[xgboots 初体验]]></title>
     <url>%2F2017%2F05%2F17%2Fxgboots-%E5%88%9D%E4%BD%93%E9%AA%8C%2F</url>
     <content type="text"><![CDATA[]]></content>
