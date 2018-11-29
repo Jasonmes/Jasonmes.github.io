@@ -43,7 +43,7 @@
   <entry>
     <title><![CDATA[卷积神经网络CNN]]></title>
     <url>%2F2018%2F02%2F26%2F%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9CCNN%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
     <title><![CDATA[手写简单三层神经网络，激活函数为sigmoid]]></title>
@@ -83,6 +83,11 @@
   <entry>
     <title><![CDATA[十大经典数据挖掘算法]]></title>
     <url>%2F2017%2F10%2F26%2F%E5%8D%81%E5%A4%A7%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E7%AE%97%E6%B3%95%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[逻辑回归-tensor]]></title>
+    <url>%2F2017%2F06%2F26%2F%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92-tensor%2F</url>
     <content type="text"></content>
   </entry>
   <entry>
