@@ -36,6 +36,11 @@
     <content type="text"></content>
   </entry>
   <entry>
+    <title><![CDATA[使用梯度下降和随机梯度下降法来训练全链接神经网络]]></title>
+    <url>%2F2018%2F04%2F01%2F%E4%BD%BF%E7%94%A8%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E9%9A%8F%E6%9C%BA%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95%E6%9D%A5%E8%AE%AD%E7%BB%83%E5%85%A8%E9%93%BE%E6%8E%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[循环神经网络RNN]]></title>
     <url>%2F2018%2F03%2F12%2F%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9CRNN%2F</url>
     <content type="text"><![CDATA[]]></content>
@@ -114,11 +119,6 @@
     <title><![CDATA[如何快速将数据导入MySQL]]></title>
     <url>%2F2017%2F04%2F17%2F%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%B0%86%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5MySQL%2F</url>
     <content type="text"><![CDATA[无论是刚刚入行的萌新，还是已经驰骋数据圈的数据猿，前期的数据准备工作都需要足够的娴熟和准确]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[使用梯度下降和随机梯度下降法来训练全链接神经网络]]></title>
-    <url>%2F2017%2F04%2F01%2F%E4%BD%BF%E7%94%A8%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%92%8C%E9%9A%8F%E6%9C%BA%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95%E6%9D%A5%E8%AE%AD%E7%BB%83%E5%85%A8%E9%93%BE%E6%8E%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%2F</url>
-    <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
     <title><![CDATA[缺失值处理方法总结]]></title>
