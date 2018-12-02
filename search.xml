@@ -46,6 +46,11 @@
     <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
+    <title><![CDATA[使用 Text8 的数据训练一个 skip-gram 模型并可视化输出]]></title>
+    <url>%2F2018%2F03%2F02%2F%E4%BD%BF%E7%94%A8-Text8-%E7%9A%84%E6%95%B0%E6%8D%AE%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AA-skip-gram-%E6%A8%A1%E5%9E%8B%E5%B9%B6%E5%8F%AF%E8%A7%86%E5%8C%96%E8%BE%93%E5%87%BA%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[卷积神经网络-two]]></title>
     <url>%2F2018%2F03%2F01%2F%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C-two%2F</url>
     <content type="text"><![CDATA[通过改变它的结构优化这个模型， 比如它有多少层，它们是怎么连接的 间隔步数，池化方法等。 尝试应用 dropout 和正则化等方法来进行更有效率的训练。 你的模型最终结构是什么样子的呢？]]></content>
