@@ -56,6 +56,11 @@
     <content type="text"><![CDATA[在该项目中你需要训练一个模型，使它能够识别出现实图片（如街景照片等）里的数字序列。同时你需要开发一个应用，它能实时显示摄像头看到的图片里的数字序列可以选择使用如下方式完成该项目：Python Script 文件、网页应用／服务或是iOS应用环境推荐的Python或网页应用环境： Python NumPy, SciPy, iPython TensorFlow™ (可选) OpenCV / SimpleCV / pygame (to capture camera images) (可选) For deploying the model in an iOS app:]]></content>
   </entry>
   <entry>
+    <title><![CDATA[Alexnet]]></title>
+    <url>%2F2018%2F03%2F07%2FAlexnet%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[训练一个一个长短期记忆网络预测字符串]]></title>
     <url>%2F2018%2F03%2F03%2F%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AA%E4%B8%80%E4%B8%AA%E9%95%BF%E7%9F%AD%E6%9C%9F%E8%AE%B0%E5%BF%86%E7%BD%91%E7%BB%9C%E9%A2%84%E6%B5%8B%E5%AD%97%E7%AC%A6%E4%B8%B2%2F</url>
     <content type="text"><![CDATA[]]></content>
